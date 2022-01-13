@@ -12,6 +12,7 @@ public class FizzBuzzTest {
         assertEquals(expected, actual);
     }
     
+    @Test
         void test_should_return_fizz_for_three(){
         String expected = "3";
         FizzBuzz number = new FizzBuzz();
