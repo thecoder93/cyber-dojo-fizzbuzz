@@ -5,7 +5,7 @@ public class FizzBuzz {
     
     }
     
-    public int answer() {
-        return 1;
+    public int answer(int number) {
+        return number;
     }
 }

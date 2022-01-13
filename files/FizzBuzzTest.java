@@ -8,7 +8,9 @@ public class FizzBuzzTest {
     void test_should_return_a_number() {
         int expected = 1;
         FizzBuzz number = new FizzBuzz();
-        int actual = number.answer();
+        int actual = number.answer(expected);
         assertEquals(expected, actual);
     }
+    
+    
 }
