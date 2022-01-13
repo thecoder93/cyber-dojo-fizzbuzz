@@ -1,16 +1,4 @@
 FizzBuzz.java:13: error: int cannot be dereferenced
         return number.toString();
                      ^
-FizzBuzzTest.java:9: error: incompatible types: String cannot be converted to int
-        int expected = "1";
-                       ^
-FizzBuzzTest.java:17: error: incompatible types: String cannot be converted to int
-        int expected = "3";
-                       ^
-FizzBuzzTest.java:25: error: incompatible types: String cannot be converted to int
-        int expected = "5";
-                       ^
-FizzBuzzTest.java:33: error: incompatible types: String cannot be converted to int
-        int expected = "5";
-                       ^
-5 errors
+1 error
