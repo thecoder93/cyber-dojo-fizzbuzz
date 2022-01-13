@@ -91,5 +91,21 @@
       9,
       80056
     ]
+  },
+  {
+    "duration": 2.099049,
+    "colour": "amber",
+    "predicted": "red",
+    "revert_if_wrong": "off",
+    "index": 6,
+    "time": [
+      2022,
+      1,
+      13,
+      14,
+      6,
+      11,
+      94600
+    ]
   }
 ]

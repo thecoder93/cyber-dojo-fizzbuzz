@@ -12,4 +12,11 @@ public class FizzBuzzTest {
         assertEquals(expected, actual);
     }
     
+        void test_should_return_fizz_for_three(){
+        int expected = "3";
+        FizzBuzz number = new FizzBuzz();
+        int actual = number.answer(expected);
+        assertEquals("Fizz", actual);
+    }
+    
 }
