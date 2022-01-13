@@ -5,11 +5,11 @@ public class FizzBuzz {
     
     }
     
-    public String answer(String number) {
-        if(number.equals("3"))
+    public String answer(int number) {
+        if(number == 3)
            return "Fizz";
-        else if(number.equals("5"))
+        else if(number == 5)
             return "Buzz";
-        return number;
+        return number.toString();
     }
 }
