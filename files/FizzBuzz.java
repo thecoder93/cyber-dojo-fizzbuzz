@@ -9,7 +9,7 @@ public class FizzBuzz {
         if(number.equals("3"))
            return "Fizz";
         else if(number.equals("5"))
-            return "Buzz"
+            return "Buzz";
         return number;
     }
 }
