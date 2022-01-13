@@ -1,0 +1,4 @@
+FizzBuzzTest.java:5: error: class FizzBUzzTest is public, should be declared in a file named FizzBUzzTest.java
+public class FizzBUzzTest {
+       ^
+1 error
