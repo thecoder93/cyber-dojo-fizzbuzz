@@ -20,4 +20,11 @@ public class FizzBuzzTest {
         assertEquals("Fizz", actual);
     }
     
+       @Test
+        void test_should_return_buzz_for_five(){
+        String expected = "5";
+        FizzBuzz number = new FizzBuzz();
+        String actual = number.answer(expected);
+        assertEquals("Buzz", actual);
+    }
 }
