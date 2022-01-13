@@ -1,0 +1,25 @@
+{
+  "image_name": "cyberdojofoundation/java_junit:d343624",
+  "display_name": "Java 17, JUnit",
+  "filename_extension": [
+    ".java"
+  ],
+  "max_seconds": 10,
+  "tab_size": 4,
+  "progress_regexs": [
+    "Failures (\\d)\\:",
+    "^\\[\\s+(\\d+) tests successful\\s+\\]"
+  ],
+  "exercise": "Fizz Buzz",
+  "version": 2,
+  "created": [
+    2022,
+    1,
+    13,
+    13,
+    45,
+    54,
+    954168
+  ],
+  "id": "ZLvLXL"
+}
