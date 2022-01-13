@@ -2,7 +2,7 @@ import org.junit.jupiter.api.*;
 import static org.junit.jupiter.api.Assertions.*;
 
 @DisplayNameGeneration(DisplayNameGenerator.ReplaceUnderscores.class)
-public class FizzBUzzTest {
+public class FizzBuzzTest {
 
     @Test
     void test_should_return_a_number() {
