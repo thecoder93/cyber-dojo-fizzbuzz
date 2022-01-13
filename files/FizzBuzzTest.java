@@ -6,11 +6,10 @@ public class FizzBuzzTest {
 
     @Test
     void test_should_return_a_number() {
-        int expected = 1;
+        String expected = "1";
         FizzBuzz number = new FizzBuzz();
-        int actual = number.answer(expected);
+        String actual = number.answer(expected);
         assertEquals(expected, actual);
     }
-    
     
 }
