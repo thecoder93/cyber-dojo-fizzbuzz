@@ -10,6 +10,6 @@ public class FizzBuzz {
            return "Fizz";
         else if(number == 5)
             return "Buzz";
-        return Integer.toString(number);
+        return String.valueOf(number);
     }
 }
