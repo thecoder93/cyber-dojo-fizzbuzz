@@ -1,0 +1,4 @@
+FizzBuzz.java:12: error: ';' expected
+            return "Buzz"
+                         ^
+1 error
