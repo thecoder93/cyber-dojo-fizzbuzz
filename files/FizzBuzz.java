@@ -6,6 +6,6 @@ public class FizzBuzz {
     }
     
     public int answer() {
-        return 6 * 9;
+        return 1;
     }
 }
