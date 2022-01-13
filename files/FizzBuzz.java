@@ -6,7 +6,7 @@ public class FizzBuzz {
     }
     
     public String answer(String number) {
-        if(number.equals("3")
+        if(number.equals("3"))
            return "Fizz";
         return number;
     }

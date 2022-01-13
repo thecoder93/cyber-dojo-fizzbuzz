@@ -1,4 +1,0 @@
-FizzBuzz.java:9: error: ')' expected
-        if(number.equals("3")
-                             ^
-1 error
