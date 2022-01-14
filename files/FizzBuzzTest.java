@@ -32,6 +32,13 @@ public class FizzBuzzTest {
         assertEquals("Buzz", actual);
     }
     
+    @Test 
+    void test_should_return_fizzbuzz_for_fifteen(){
+        int expected = 5;
+        String actual = number.answer(expected);
+        assertEquals("FizzBuzz", actual);
+    }
+    
     @Test
     void test_should_return_fizz_or_buzz_or_number(){
         for(int i=0; i<=100; i++){
