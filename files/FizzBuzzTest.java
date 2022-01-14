@@ -9,7 +9,7 @@ public class FizzBuzzTest {
         int expected = 1;
         FizzBuzz number = new FizzBuzz();
         String actual = number.answer(expected);
-        assertEquals(expected, actual);
+        assertEquals("1", actual);
     }
     
     @Test
