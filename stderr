@@ -1,6 +1,0 @@
-FizzBuzzTest.java:38: error: cannot find symbol
-            System.out.Println(number.answer(i));
-                      ^
-  symbol:   method Println(String)
-  location: variable out of type PrintStream
-1 error

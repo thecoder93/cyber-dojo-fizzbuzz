@@ -35,7 +35,7 @@ public class FizzBuzzTest {
     @Test
     void test_should_return_fizz_or_buzz_or_number(){
         for(int i=0; i<=100; i++){
-            System.out.Println(number.answer(i));
+            System.out.println(number.answer(i));
         }
     }
 }
