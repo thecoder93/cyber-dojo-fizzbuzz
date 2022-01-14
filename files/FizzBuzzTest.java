@@ -11,7 +11,6 @@ public class FizzBuzzTest {
         number = new FizzBuzz();
     }
 
-
     @Test
     void test_should_return_a_number() {
         int expected = 1;
@@ -33,5 +32,9 @@ public class FizzBuzzTest {
         assertEquals("Buzz", actual);
     }
     
-   
+    @Test
+    void test_should_return_fizz_or_buzz_or_number(){
+        for(i=0; i<=100; i++){
+            System.out.Println(number.answer(i));
+        }
 }
