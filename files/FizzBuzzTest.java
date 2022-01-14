@@ -34,7 +34,7 @@ public class FizzBuzzTest {
     
     @Test 
     void test_should_return_fizzbuzz_for_fifteen(){
-        int expected = 5;
+        int expected = 15;
         String actual = number.answer(expected);
         assertEquals("FizzBuzz", actual);
     }

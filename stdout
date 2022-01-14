@@ -103,7 +103,7 @@ Buzz
 +-- JUnit Jupiter [OK]
 | '-- FizzBuzzTest [OK]
 |   +-- test should return a number [OK]
-|   +-- test should return fizzbuzz for fifteen [X] expected: <FizzBuzz> but was: <Buzz>
+|   +-- test should return fizzbuzz for fifteen [X] expected: <FizzBuzz> but was: <Fizz>
 |   +-- test should return fizz or buzz or number [OK]
 |   +-- test should return buzz for five [OK]
 |   '-- test should return fizz for three [OK]
@@ -112,7 +112,7 @@ Buzz
 Failures (1):
   JUnit Jupiter:FizzBuzzTest:test should return fizzbuzz for fifteen
     MethodSource [className = 'FizzBuzzTest', methodName = 'test_should_return_fizzbuzz_for_fifteen', methodParameterTypes = '']
-    => org.opentest4j.AssertionFailedError: expected: <FizzBuzz> but was: <Buzz>
+    => org.opentest4j.AssertionFailedError: expected: <FizzBuzz> but was: <Fizz>
        org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
        org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
        org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
@@ -125,7 +125,7 @@ Failures (1):
        java.base/java.lang.reflect.Method.invoke(Method.java:568)
        [...]
 
-Test run finished after 159 ms
+Test run finished after 184 ms
 [         3 containers found      ]
 [         0 containers skipped    ]
 [         3 containers started    ]
