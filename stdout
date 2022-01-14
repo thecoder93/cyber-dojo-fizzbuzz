@@ -108,7 +108,7 @@ Buzz
 |   '-- test should return fizz for three [OK]
 '-- JUnit Vintage [OK]
 
-Test run finished after 141 ms
+Test run finished after 152 ms
 [         3 containers found      ]
 [         0 containers skipped    ]
 [         3 containers started    ]
