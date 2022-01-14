@@ -1,21 +1,6 @@
-FizzBuzzTest.java:37: error: cannot find symbol
-        for(i=0; i<=100; i++){
-            ^
-  symbol:   variable i
-  location: class FizzBuzzTest
-FizzBuzzTest.java:37: error: cannot find symbol
-        for(i=0; i<=100; i++){
-                 ^
-  symbol:   variable i
-  location: class FizzBuzzTest
-FizzBuzzTest.java:37: error: cannot find symbol
-        for(i=0; i<=100; i++){
-                         ^
-  symbol:   variable i
-  location: class FizzBuzzTest
 FizzBuzzTest.java:38: error: cannot find symbol
             System.out.Println(number.answer(i));
-                                             ^
-  symbol:   variable i
-  location: class FizzBuzzTest
-4 errors
+                      ^
+  symbol:   method Println(String)
+  location: variable out of type PrintStream
+1 error
