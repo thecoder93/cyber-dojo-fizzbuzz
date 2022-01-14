@@ -1,4 +1,4 @@
-Fizz
+FizzBuzz
 1
 2
 Fizz
@@ -13,7 +13,7 @@ Buzz
 Fizz
 13
 14
-Fizz
+FizzBuzz
 16
 17
 Fizz
@@ -28,7 +28,7 @@ Buzz
 Fizz
 28
 29
-Fizz
+FizzBuzz
 31
 32
 Fizz
@@ -43,7 +43,7 @@ Buzz
 Fizz
 43
 44
-Fizz
+FizzBuzz
 46
 47
 Fizz
@@ -58,7 +58,7 @@ Buzz
 Fizz
 58
 59
-Fizz
+FizzBuzz
 61
 62
 Fizz
@@ -73,7 +73,7 @@ Buzz
 Fizz
 73
 74
-Fizz
+FizzBuzz
 76
 77
 Fizz
@@ -88,7 +88,7 @@ Buzz
 Fizz
 88
 89
-Fizz
+FizzBuzz
 91
 92
 Fizz
@@ -103,29 +103,13 @@ Buzz
 +-- JUnit Jupiter [OK]
 | '-- FizzBuzzTest [OK]
 |   +-- test should return a number [OK]
-|   +-- test should return fizzbuzz for fifteen [X] expected: <FizzBuzz> but was: <Fizz>
+|   +-- test should return fizzbuzz for fifteen [OK]
 |   +-- test should return fizz or buzz or number [OK]
 |   +-- test should return buzz for five [OK]
 |   '-- test should return fizz for three [OK]
 '-- JUnit Vintage [OK]
 
-Failures (1):
-  JUnit Jupiter:FizzBuzzTest:test should return fizzbuzz for fifteen
-    MethodSource [className = 'FizzBuzzTest', methodName = 'test_should_return_fizzbuzz_for_fifteen', methodParameterTypes = '']
-    => org.opentest4j.AssertionFailedError: expected: <FizzBuzz> but was: <Fizz>
-       org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
-       org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
-       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
-       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
-       org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1141)
-       FizzBuzzTest.test_should_return_fizzbuzz_for_fifteen(FizzBuzzTest.java:39)
-       java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-       java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-       java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-       java.base/java.lang.reflect.Method.invoke(Method.java:568)
-       [...]
-
-Test run finished after 155 ms
+Test run finished after 189 ms
 [         3 containers found      ]
 [         0 containers skipped    ]
 [         3 containers started    ]
@@ -136,6 +120,6 @@ Test run finished after 155 ms
 [         0 tests skipped         ]
 [         5 tests started         ]
 [         0 tests aborted         ]
-[         4 tests successful      ]
-[         1 tests failed          ]
+[         5 tests successful      ]
+[         0 tests failed          ]
 
