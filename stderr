@@ -1,4 +1,21 @@
-FizzBuzzTest.java:40: error: reached end of file while parsing
-}
- ^
-1 error
+FizzBuzzTest.java:37: error: cannot find symbol
+        for(i=0; i<=100; i++){
+            ^
+  symbol:   variable i
+  location: class FizzBuzzTest
+FizzBuzzTest.java:37: error: cannot find symbol
+        for(i=0; i<=100; i++){
+                 ^
+  symbol:   variable i
+  location: class FizzBuzzTest
+FizzBuzzTest.java:37: error: cannot find symbol
+        for(i=0; i<=100; i++){
+                         ^
+  symbol:   variable i
+  location: class FizzBuzzTest
+FizzBuzzTest.java:38: error: cannot find symbol
+            System.out.Println(number.answer(i));
+                                             ^
+  symbol:   variable i
+  location: class FizzBuzzTest
+4 errors

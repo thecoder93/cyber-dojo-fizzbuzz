@@ -37,4 +37,5 @@ public class FizzBuzzTest {
         for(i=0; i<=100; i++){
             System.out.Println(number.answer(i));
         }
+    }
 }
